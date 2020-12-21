@@ -6,6 +6,6 @@
     <link rel="stylesheet" href="{{ asset('css/app.css')}}">
   </head>
   <body>
-    <h1>Mi chiamo Pippo</h1>
+    <h1>Mi chiamo {{ $nome }}</h1>
   </body>
 </html>

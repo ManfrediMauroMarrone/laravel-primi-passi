@@ -18,7 +18,10 @@ Route::get('/', function () {
 });
 
 Route::get('/nome', function () {
-    return view('about');
+  $data = [
+    'nome' => 'Pippo'
+  ];
+    return view('about', $data);
 });
 
 Route::get('/eta', function () {

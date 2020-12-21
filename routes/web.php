@@ -22,8 +22,11 @@ Route::get('/nome', function () {
     'nome' => 'Pippo'
   ];
     return view('about', $data);
-});
+}) ->name('mio_nome');
 
 Route::get('/eta', function () {
-    return view('age');
-});
+  $data = [
+    'age' => 30
+  ];
+    return view('age', $data);
+}) ->name('eta');

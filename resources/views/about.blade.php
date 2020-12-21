@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css')}}">
   </head>
   <body>
+    <a href="{{ route('eta') }}">Vai alla pagina age</a>
     <h1>Mi chiamo {{ $nome }}</h1>
   </body>
 </html>

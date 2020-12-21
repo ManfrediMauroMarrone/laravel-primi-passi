@@ -6,6 +6,6 @@
     <link rel="stylesheet" href="{{ asset('css/app.css')}}">
   </head>
   <body>
-    <h1>Ho 30 anni</h1>
+    <h1>Ho {{ $age }} anni</h1>
   </body>
 </html>

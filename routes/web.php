@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/nome', function () {
     return view('about');
 });
+
+Route::get('/eta', function () {
+    return view('age');
+});
